@@ -1,0 +1,7 @@
+{
+  "name": "aCard Heatmap",
+  "render_readme": true,
+  "filename": "acard-heatmap.js",
+  "iot_class": "Local Push",
+  "framework": "lit"
+}
