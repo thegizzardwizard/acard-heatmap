@@ -4,6 +4,8 @@ A highly customizable, highly optimized 2D grid card for Home Assistant that vis
 
 I have made a series of aCards for my own home assistant setup. These were all coded with the help of Gemini and Claude AI.
 
+<img src="heatmap-preview.png" alt="aCard Heatmap Preview" width="400"/>
+
 ## ✨ Features
 
 * **Zero Ongoing Database Load:** Queries the Home Assistant database exactly *once* on load, then seamlessly updates via the live WebSocket stream.
