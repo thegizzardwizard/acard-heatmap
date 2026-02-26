@@ -107,3 +107,15 @@ thresholds:
   - from: 16
     to: 9999
     color: '#ef4444'
+```
+## ⚙️ How "Live" vs "Static" Modes Work
+
+In the visual editor, you can choose how the card behaves under **Server Load & Behavior**:
+
+* **Live (Default):** The card loads historical data once, then uses Home Assistant's built-in WebSocket to listen for live state changes, adding them to the heatmap in real-time. It runs a lightweight local timer to slide the time window forward.
+* **Static:** The card takes a snapshot of your database exactly when the dashboard loads and freezes the UI. Best for performance-constrained devices viewing massive datasets.
+
+## 🐛 Troubleshooting
+
+* **Card isn't showing up in the picker:** Ensure you have added the resource in your dashboard settings and performed a hard refresh (`Ctrl+F5` or `Cmd+Shift+R`).
+* **Alignment issues on mobile:** Ensure `Auto-Scale Width` is unchecked if you want rigid box sizes, and the card will automatically allow horizontal scrolling.
