@@ -2,6 +2,8 @@
 
 A highly customizable, highly optimized 2D grid card for Home Assistant that visualizes historical event frequencies over a rolling multi-day period. Perfect for tracking motion sensors, door/window covers, presence detection, or any state changes mapped across specific times of day.
 
+I have made a series of aCards for my own home assistant setup. These were all coded with the help of Gemini and Claude AI.
+
 ## ✨ Features
 
 * **Zero Ongoing Database Load:** Queries the Home Assistant database exactly *once* on load, then seamlessly updates via the live WebSocket stream.
